@@ -1,0 +1,4 @@
+wifi start --> rfkill unblock wifi
+wifi stop --> rfkill block wifi
+
+bluetooth start --> systemctl start bluetooth
