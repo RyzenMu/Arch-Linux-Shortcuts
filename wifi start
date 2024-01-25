@@ -13,3 +13,5 @@ install .deb package --> 1. install debtap using "yay -S debtap"
 remove apps ---> pacman -Rns <name>
 
 mail --> chrome settings-->privacy & security --> site settings --> permissions --> protocol handerlsers --> allow
+
+youtube-downloader ---> sudo pacman -S yt-dlp
