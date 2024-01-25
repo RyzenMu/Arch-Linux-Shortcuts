@@ -11,3 +11,5 @@ install .deb package --> 1. install debtap using "yay -S debtap"
                          3. sudo pacman -U yourfile.zst
 
 remove apps ---> pacman -Rns <name>
+
+mail --> chrome settings-->privacy & security --> site settings --> permissions --> protocol handerlsers --> allow
