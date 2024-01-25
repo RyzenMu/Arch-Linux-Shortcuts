@@ -4,3 +4,8 @@ wifi stop --> rfkill block wifi
 bluetooth start --> systemctl start bluetooth
 
 emoji --> sudo pacman -S ttf-dejavu
+
+install .deb package --> 1. install debtap using "yay -S debtap"
+                         2. debtap package.deb
+                          it will create a folder with .tar.zst extension
+                         3. sudo pacman -U yourfile.zst
