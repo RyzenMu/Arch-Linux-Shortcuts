@@ -17,4 +17,5 @@ mail --> chrome settings-->privacy & security --> site settings --> permissions 
 youtube-downloader ---> sudo pacman -S yt-dlp
                   --->yt-dlp youtube.url
                   -->yt-dlp -f “bestvideo&#91;ext=mp4]+bestaudio&#91;ext=m4a]” https://www.youtube.com/watch?v=1PmJeP-TphM
+                  -->yt-dlp -F --list-formats https://www.youtube.com/watch?v=1PmJeP-TphM
 
