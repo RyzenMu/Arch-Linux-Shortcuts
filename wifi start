@@ -20,4 +20,8 @@ youtube-downloader ---> sudo pacman -S yt-dlp
                   -->yt-dlp -F --list-formats https://www.youtube.com/watch?v=1PmJeP-TphM
                   yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]" https://www.youtube.com/watch?v=MIA05uGvAq4
 
+dual boot -- enter the following command in windows cmd as administrator 
+              --> bcdedit /set {bootmgr} displaybootmenu yes
+
+                bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
 
