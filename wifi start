@@ -25,3 +25,17 @@ dual boot -- enter the following command in windows cmd as administrator
 
                 bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
 
+swappiness --
+To adjust the swappiness in Arch Linux, you can follow these steps:
+Open the /etc/sysctl.d/99-sysctl.conf file in a text editor using sudo privileges.
+Add the following line at the end of the file to set the swappiness value:
+vm.swappiness=10
+Replace 10 with your desired swappiness value (0-100).
+Save and close the file.
+To apply the changes immediately, run:
+sudo sysctl --system
+Copy
+This will adjust the swappiness value on your Arch Linux system.
+Remember, if you're not comfortable with command-line operations, always take a backup or seek assistance from someone who is more experienced with system configuration.
+If you're interested in learning more about Linux system administration, I'd recommend checking out the relevant courses on codedamn.
+
