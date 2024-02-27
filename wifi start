@@ -39,3 +39,9 @@ This will adjust the swappiness value on your Arch Linux system.
 Remember, if you're not comfortable with command-line operations, always take a backup or seek assistance from someone who is more experienced with system configuration.
 If you're interested in learning more about Linux system administration, I'd recommend checking out the relevant courses on codedamn.
 
+install from git -->
+    1. $ # git clone [the package]
+      $ git clone https://aur.archlinux.org/qperf.git
+    2. $ # cd [the package]
+       $ cd qperf
+       $ makepkg -si
