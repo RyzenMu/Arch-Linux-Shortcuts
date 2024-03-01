@@ -45,3 +45,7 @@ install from git -->
     2. $ # cd [the package]
        $ cd qperf
        $ makepkg -si
+
+auto-cpufreq ----> is a tool to adjust cpu frequency settings.
+
+
